@@ -11,10 +11,17 @@
 RB.disablePushState=true;
 if (!!RB.initialize) RB.initialize("dGVzdF9yaWNrX3Byb2R8dmlld3xwdXJjaGFzZXxzaWdudXB8bG9naW4=");
 RB.track("view");
+  
+  
+  function myFunction() {
+    RB.track("click");
+  }
 </script>
 <!-- Rockerbox - test_rick_prod -->
   </head>
   <body>
-    <button>Let's put something on this page</button>
+    <button onclick="myFunction()">
+   Let's put something on this page
+    </button>
   </body>
 </html>
